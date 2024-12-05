@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', ''))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE',"adlinkfly.in"))
-STREAM_API = (environ.get('STREAM_API',"f9ddaede56a9edc706f9edc4b363154477f427cf"))
+STREAM_SITE = (environ.get('STREAM_SITE',"urllinkshort.in"))
+STREAM_API = (environ.get('STREAM_API',"ccc6d3333a78b2b85b0688b7ce1d3389c88acdf7"))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtoopenlinkclipmate/10'))
 
 # Admins, Channels & Users
@@ -66,8 +66,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VisualMoviesGroup')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VisualMovies1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenlinkclipmate/10') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Visual')
