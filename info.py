@@ -126,6 +126,8 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 
+REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] #don't add any emoji because tg not support all emoji reactions
+
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', ''))
 
