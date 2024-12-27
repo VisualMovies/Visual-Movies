@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', ''))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE',"urllinkshort.in"))
-STREAM_API = (environ.get('STREAM_API',"ccc6d3333a78b2b85b0688b7ce1d3389c88acdf7"))
+STREAM_SITE = (environ.get('STREAM_SITE',"earn2short.in"))
+STREAM_API = (environ.get('STREAM_API',"f14acfbab566a5c252f25eaf681d70dbde417fbd"))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtoopenlinkclipmate/10'))
 
 # Admins, Channels & Users
