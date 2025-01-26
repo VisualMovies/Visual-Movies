@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/YoM.jpg'))
 CODE = (environ.get('CODE', ''))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE',"earn2short.in"))
-STREAM_API = (environ.get('STREAM_API',"f14acfbab566a5c252f25eaf681d70dbde417fbd"))
+STREAM_SITE = (environ.get('STREAM_SITE',""))
+STREAM_API = (environ.get('STREAM_API',""))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtoopenlinkclipmate/10'))
 
 # Admins, Channels & Users
@@ -55,12 +55,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/howtoopenlinkclipmate/10') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'earn2short.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f14acfbab566a5c252f25eaf681d70dbde417fbd')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
