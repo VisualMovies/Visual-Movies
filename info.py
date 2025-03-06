@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/YoM.jpg'))
 CODE = (environ.get('CODE', ''))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE',"earn2short.in"))
-STREAM_API = (environ.get('STREAM_API',"f14acfbab566a5c252f25eaf681d70dbde417fbd"))
+STREAM_SITE = (environ.get('STREAM_SITE',""))
+STREAM_API = (environ.get('STREAM_API',""))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtoopenlinkclipmate/10'))
 
 # Admins, Channels & Users
