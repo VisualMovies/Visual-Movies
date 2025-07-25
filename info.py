@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/YoM.jpg'))
 CODE = (environ.get('CODE', ''))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE',""))
-STREAM_API = (environ.get('STREAM_API',""))
+STREAM_SITE = (environ.get('STREAM_SITE',"dashboard.smallshorts.com"))
+STREAM_API = (environ.get('STREAM_API',"901cca899db6273e13ce8783a8dbace0e1c8b807"))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtoopenlinkclipmate/10'))
 
 # Admins, Channels & Users
@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/howtoopenlinkclipmate/10') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'earn2short.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f14acfbab566a5c252f25eaf681d70dbde417fbd')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'dashboard.smallshorts.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '901cca899db6273e13ce8783a8dbace0e1c8b807')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
