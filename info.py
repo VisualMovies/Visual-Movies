@@ -61,7 +61,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/howtoopenlinkclipmate/10'
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'dashboard.smallshorts.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '901cca899db6273e13ce8783a8dbace0e1c8b807')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
